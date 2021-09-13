@@ -111,6 +111,7 @@ class _SearchAppBarState extends State<SearchAppBar> {
                   height: 40.0,
                   child: Center(
                     child: TextField(
+                       textAlignVertical: TextAlignVertical.center,
                       autofocus: _sheetProvider.initialExtent ==
                           SheetProvider.maxExtent,
                       focusNode: _focus,
